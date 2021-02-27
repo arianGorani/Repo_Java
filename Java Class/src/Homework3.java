@@ -1,7 +1,6 @@
 public class Homework3 {
     public static void main(String[] args) {
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Celsius to Fahrenheit
         System.out.println("Celsius to Fahrenheit");
@@ -13,8 +12,7 @@ public class Homework3 {
         System.out.println();
 
         //-------------------------------------------------------------//
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Celsius to Kelvin
         System.out.println("Celsius to Kelvin");
@@ -26,8 +24,7 @@ public class Homework3 {
         System.out.println();
 
         //-------------------------------------------------------------//
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Fahrenheit to Celsius
         System.out.println("Fahrenheit to Celsius");
@@ -39,8 +36,7 @@ public class Homework3 {
         System.out.println();
 
         //-------------------------------------------------------------//
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Fahrenheit to Kelvin
         System.out.println("Fahrenheit to Kelvin");
@@ -52,8 +48,7 @@ public class Homework3 {
         System.out.println();
 
         //-------------------------------------------------------------//
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Kelvin to Fahrenheit
         System.out.println("Kelvin to Fahrenheit");
@@ -65,8 +60,7 @@ public class Homework3 {
         System.out.println();
 
         //-------------------------------------------------------------//
-        System.out.println("-----------------------------------");
-        System.out.println();
+        System.out.println("-----------------------------------\n");
 
         //Kelvin to Celsius
         System.out.println("Kelvin to Celsius");
