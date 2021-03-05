@@ -44,6 +44,23 @@ public class arian {
         System.out.println(eligibleToVote.toUpperCase());
         System.out.println(enterClub.toLowerCase());
 
+        String name =  "ArIaN GoraNi";
+        String name1 =  "arian gorani";
 
+        System.out.println(name.equalsIgnoreCase(name1));
+
+
+
+        String at =  "GMAIL";
+        String et = "gmail";
+
+        if(at.equalsIgnoreCase(et)) {
+            System.out.printf(at);
+        }
+        else {
+            System.out.println(et);
+            }
+
+        }
     }
-}
+
