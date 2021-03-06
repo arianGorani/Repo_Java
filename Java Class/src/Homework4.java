@@ -17,7 +17,7 @@ public class Homework4 {
         System.out.println("Answer 2");
         String sentence_4 = "We all ARe Good ProgRommeR";
         System.out.println("Befor Replacment --> " + sentence_4);
-        sentence_4 = sentence_4.replace("r","f");
+        sentence_4 = sentence_4.replace("r","f").replace("R", "f");
         System.out.println("After Replacment --> " + sentence_4 + "\n");
         /**
          *  1. Replace all 'r' with 'f' (Ignore cases)
