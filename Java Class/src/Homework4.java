@@ -28,11 +28,11 @@ public class Homework4 {
 
         // * 1. Display the length of your fullname.
         int lengthOfFullName = fullName.length();
-        // * 2. Does your name start with 'K' (Does your name start with 'K'ignore cases)
-        boolean nameStartsWithK = fullName.startsWith("K");
+        // * 2. Does your name start with 'K' (Does your name start with 'K' ignore cases)
+        boolean nameStartsWithK = fullName.startsWith("K") || fullName.contains("k");
 
         // * 3. Does your full name contain 'a' (ignore cases)
-        boolean fullNameContain = fullName.contains("a");
+        boolean fullNameContain = fullName.contains("a") || fullName.contains("A");
         System.out.println("Display the length of your fullname " + lengthOfFullName + "\nDoes your name start with 'K' " + nameStartsWithK + "\nDoes your full name contain 'a' " + fullNameContain);
 
 
