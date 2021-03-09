@@ -75,8 +75,8 @@ public class Homework5 {
          *
          */
 
-        String arian = "Lab sessIONS clAsses";
-        String[] stringSplit = arian.split(" ");
+        String threeWord = "Lab sessIONS clAsses";
+        String[] stringSplit = threeWord.split(" ");
 
         char char1 = stringSplit[0].toUpperCase().charAt(0);
         char char2 = stringSplit[1].toUpperCase().charAt(0);
