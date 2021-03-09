@@ -17,7 +17,7 @@ public class Homework5 {
          */
 
         // Does first name start with 'K' (ignore cases)
-        boolean nameStartsK = fullName.toLowerCase().startsWith("k");
+        boolean nameStartsK = fullName.toUpperCase().startsWith("K");
         System.out.println("\n\nDoes first name start with 'K' --> " + nameStartsK);
 
         // If user has a last name, Does last name ends with 'a' (ignore cases)
