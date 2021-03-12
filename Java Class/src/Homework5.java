@@ -25,16 +25,18 @@ public class Homework5 {
         int lengthOfUser = userFullName.length;
 
         if (lengthOfUser >= 2) {
+            int lastindex = userFullName.length -1;
             System.out.print("\n\nDoes last name ends with 'a' --> ");
-            System.out.println(userFullName[1].toLowerCase().endsWith("a"));
+            System.out.println(userFullName[lastindex].toLowerCase().endsWith("a"));
         } else {
             System.out.println("\n\nNo last name entered");
         }
 
         //If user has a last name, print the 1st letter of last name
         if (lengthOfUser >= 2) {
+            int lastindex = userFullName.length -1;
             System.out.print("\n\nPrint the 1st letter of last name: ");
-            System.out.println(userFullName[1].charAt(0));
+            System.out.println(userFullName[lastindex].charAt(0));
         } else {
             System.out.println("\n\nNo last name entered");
         }
