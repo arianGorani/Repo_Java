@@ -1,8 +1,8 @@
-public class printerMain {
+public class Homework_11_printerMain {
 
     public static void main(String[] args) {
 
-        printerMethods p1 = new printerMethods();
+        Homework_11_printerMethods p1 = new Homework_11_printerMethods();
 
         p1.printerSummary();
 

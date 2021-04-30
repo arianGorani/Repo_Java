@@ -51,6 +51,8 @@ public class Homework_12_Restaurant_Main {
 
         r1.restaurantSummery();
 
+        r1.removeParty(2);
+
 
 
 

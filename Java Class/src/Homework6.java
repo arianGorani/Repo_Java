@@ -13,7 +13,7 @@ public class Homework6 {
          Grade E: 50.01 - 59.99
          Grade F: <= 50.00
          */
-        double studentScore = 550;
+        double studentScore = 349;
         double maxScore = 700;
         double percentage = ((studentScore*100) / maxScore);
 

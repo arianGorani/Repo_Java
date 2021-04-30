@@ -1,9 +1,6 @@
-package ushtrime;
+package exercises;
 
-import java.util.Arrays;
-import java.util.Locale;
-
-    public class labTasks {
+public class labTasks {
         public static void main(String[] args) {
 
 

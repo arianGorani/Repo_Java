@@ -13,7 +13,7 @@ public class codeTest {
 
         //  TASK 2
 
-        int[] intArray = {-1, -3, 4, 2};
+        int[] intArray = {0, 5, -1, 1, 2, 5, 3, 7, 1, 2};
         c1.smallestPositiveInt(intArray);
 
         // TASK 3
@@ -76,15 +76,16 @@ public class codeTest {
     //      UNFINISHED  UNFINISHED  UNFINISHED
 
     public int smallestPositiveInt(int[] inputArray) {
-        int smallestPositiv = 0;
+        int check = 1;
 
         for (int i = 0; i < inputArray.length; i++) {
-            if (inputArray[i] > smallestPositiv && inputArray[i] <= inputArray.length) {
-                smallestPositiv = inputArray[i];
+            if (inputArray[i] == check) {
+                check++;
+                i =-1;
             }
         }
-        System.out.println(smallestPositiv);
-        return smallestPositiv;
+        System.out.println(check);
+        return check;
     }
 
 
@@ -108,7 +109,7 @@ public class codeTest {
      */
 
     //  UNFINISHED  UNFINISHED  UNFINISHED
-    
+
     public void pointsToCharged(int userSpeed) {
 
         int points = 0;
